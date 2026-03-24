@@ -99,8 +99,8 @@ const Index = () => {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold font-display leading-tight mb-6">
-              Shape Your{" "}
-              <span className="text-gradient-primary">Tech Future</span>
+              Welcome to{" "}
+              <span className="text-gradient-primary">PathPilot</span>
               <br />
               With AI Precision
             </h1>
@@ -144,17 +144,17 @@ const Index = () => {
             delay={0.1}
           />
           <ProductCard
-            title="ResumeAI"
+            title="HireForge"
             subtitle="Career Accelerator"
-            description="Upload your resume for ATS optimization, discover matching jobs, and get personalized career roadmaps powered by intelligent analysis."
+            description="A full-fledged career optimization platform offering deep ATS scoring, AI rewriting, job targeting, and a personalized dashboard—all for free."
             icon={FileText}
             features={[
-              "ATS scoring & resume enhancement",
-              "Smart job matching algorithm",
-              "Personalized career roadmaps",
-              "AI-powered interview prep insights",
+              "Deep ATS scoring (20+ parameters)",
+              "AI-powered resume rewriting",
+              "Job-description targeting",
+              "Version history & career dashboard",
             ]}
-            href="https://jobtune-three.vercel.app/"
+            href="https://hireforge-lyart.vercel.app/"
             glowClass="glow-accent"
             gradientClass="bg-accent"
             delay={0.3}
@@ -194,14 +194,14 @@ const Index = () => {
       <footer className="relative z-10 border-t border-border/50 py-8 px-6">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground font-mono">
-            Built with AI to shape your technical future
+            Built with AI by PathPilot
           </p>
           <div className="flex gap-6">
             <a href="https://code-sage-ai-swart.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               CodeSAGE AI
             </a>
-            <a href="https://jobtune-three.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              ResumeAI
+            <a href="https://hireforge-lyart.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              HireForge
             </a>
           </div>
         </div>
